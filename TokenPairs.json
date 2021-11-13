@@ -1,0 +1,17 @@
+{
+    "tokenPairs":
+     [
+        {"token0Name": "USDT", "token0Address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "token0decimals": 1000000, 
+         "token1Name": "Ether", "token1Address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "token1decimals": 1000000000000000000},
+       
+        {"token0Name": "Ether", "token0Address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "token0decimals": 1000000000000000000,  
+         "token1Name": "SUSHI", "token1Address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2", "token1decimals": 1000000000000000000},
+
+        {"token0Name": "Ether", "token0Address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "token0decimals": 1000000000000000000, 
+         "token1Name": "WBTC", "token1Address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", "token1decimals": 100000000 }, 
+
+        {"token0Name": "USDT", "token0Address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "token0decimals": 1000000, 
+         "token1Name": "WBTC", "token1Address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", "token1decimals": 100000000}
+
+    ]
+}
