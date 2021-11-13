@@ -1,17 +1,17 @@
 {
     "tokenPairs":
      [
-        {"token0Name": "USDT", "token0Address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "token0decimals": 1000000, 
-         "token1Name": "Ether", "token1Address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "token1decimals": 1000000000000000000},
+        {"token0Name": "BUSD", "token0Address": "0xe9e7cea3dedca5984780bafc599bd69add087d56", "token0decimals": 1000000000000000000, 
+         "token1Name": "WBNB", "token1Address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", "token1decimals": 1000000000000000000},
        
-        {"token0Name": "Ether", "token0Address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "token0decimals": 1000000000000000000,  
-         "token1Name": "SUSHI", "token1Address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2", "token1decimals": 1000000000000000000},
+        {"token0Name": "SUSHI", "token0Address": "0x947950bcc74888a40ffa2593c5798f11fc9124c4", "token0decimals": 1000000000000000000,  
+         "token1Name": "ETH", "token1Address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8", "token1decimals": 1000000000000000000},
 
-        {"token0Name": "Ether", "token0Address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "token0decimals": 1000000000000000000, 
-         "token1Name": "WBTC", "token1Address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", "token1decimals": 100000000 }, 
+        {"token0Name": "WBNB", "token0Address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", "token0decimals": 1000000000000000000, 
+         "token1Name": "ETH", "token1Address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8", "token1decimals": 1000000000000000000 }, 
 
-        {"token0Name": "USDT", "token0Address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "token0decimals": 1000000, 
-         "token1Name": "WBTC", "token1Address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", "token1decimals": 100000000}
+        {"token0Name": "BUSD", "token0Address": "0xe9e7cea3dedca5984780bafc599bd69add087d56", "token0decimals": 1000000000000000000, 
+         "token1Name": "BTCB", "token1Address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c", "token1decimals": 1000000000000000000}
 
     ]
 }
