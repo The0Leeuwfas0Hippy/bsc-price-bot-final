@@ -4,10 +4,10 @@
         {"token0Name": "BUSD", "token0Address": "0xe9e7cea3dedca5984780bafc599bd69add087d56", "token0decimals": 1000000000000000000, 
          "token1Name": "WBNB", "token1Address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", "token1decimals": 1000000000000000000},
        
-        {"token0Name": "SUSHI", "token0Address": "0x947950bcc74888a40ffa2593c5798f11fc9124c4", "token0decimals": 1000000000000000000,  
-         "token1Name": "ETH", "token1Address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8", "token1decimals": 1000000000000000000},
+        {"token0Name": "WBNB", "token0Address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", "token0decimals": 1000000000000000000,  
+         "token1Name": "BTCB", "token1Address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c", "token1decimals": 1000000000000000000},
 
-        {"token0Name": "WBNB", "token0Address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", "token0decimals": 1000000000000000000, 
+        {"token0Name": "CAKE", "token0Address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", "token0decimals": 1000000000000000000, 
          "token1Name": "ETH", "token1Address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8", "token1decimals": 1000000000000000000 }, 
 
         {"token0Name": "BUSD", "token0Address": "0xe9e7cea3dedca5984780bafc599bd69add087d56", "token0decimals": 1000000000000000000, 
