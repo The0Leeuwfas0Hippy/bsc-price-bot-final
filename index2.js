@@ -1,6 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const http = require('http')
+const BigNumber = require('bignumber.js');
 const web3 = require('web3')
 const HDWalletProvider = require('@truffle/hdwallet-provider')
 const PairAbi = require('./abis/pairAbi.json')
@@ -11,7 +12,7 @@ const TokenPairs = require('./TokenPairs.json')
 const app = express()
 const port = 443
  server = http.createServer(app).listen(port, ()=>{console.log(`listening at port: ${port}`)})
-const provider = new HDWalletProvider(process.env.private_key, 'https://bsc-dataseed1.binance.org:443')
+const provider = new HDWalletProvider(process.env.private_key, 'https://bsc-dataseed.binance.org:443')
 // const provider = new HDWalletProvider(process.env.private_key, 'https://mainnet.infura.io/v3/f65faddcb26a434fbe94814951196f0e')
 const Web3 = new web3(provider)
 
@@ -183,7 +184,7 @@ getContract().then(async (theFactories) => {
 
             if(PriceDiff > 0)
             {
-                PriceDiffs.push({thePair, "BuyFrom": mockPriceArray[x].Exchange, "SellTo": theExchange, Token0Address, Token1Address, ExchangePrice1, ExchangePrice2, PriceDiff, date})
+                PriceDiffs.push({thePair, "BuyFrom": mockPriceArray[x].Exchange, "SellTo": theExchange, Token0Address, Token1Address, "Borrow_Amount":`${ExchangePrice1}` , "Other_Amount":`${ExchangePrice2}`, PriceDiff, date})
             }
             // else
             //   { 
@@ -202,11 +203,44 @@ getContract().then(async (theFactories) => {
 
 }).then(thePriceDiffs => {
 
-  Promise.all(thePriceDiffs).then(priceDifferences => {
+  Promise.all(thePriceDiffs).then(async (priceDifferences) => {
+
+    var BN = Web3.utils.BN;
+
     for(var i=0; i<priceDifferences.length; i++)
     {
       console.log(priceDifferences[i])
+      // let PriceDiffRatio = priceDifferences[i].PriceDiff / priceDifferences[i].Price
+      // let feePercentage = 0.2
+
+      // priceDifferences[i].DiffRatio = PriceDiffRatio 
+      // priceDifferences[i].FeePercentage = feePercentage
+      
+      // let netReturn = PriceDiffRatio - feePercentage
+
+
+
     }
+
+    // let ethDecimals = new BigNumber(1 * 10 ** 18);
+
+    //  await Web3.eth.getAccounts().then(results => { 
+    //    for(var i=0; i<results.length; i++){console.log(results[0]); console.log("=====================================\n")}
+    //   });
+
+    //   console.log("Gas Price in wei-divided by 1e18 to convert to eth/bnb:")
+    //   await Web3.eth.getGasPrice().then(price => {
+
+    // let newPrice = new BigNumber(price);
+
+    // let gasInEth = price/(ethDecimals)
+
+
+    //     console.log(price.toString())
+      
+    //   });
+
+
   })
 })
 

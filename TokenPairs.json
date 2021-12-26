@@ -7,11 +7,25 @@
         {"token0Name": "WBNB", "token0Address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", "token0decimals": 1000000000000000000,  
          "token1Name": "BTCB", "token1Address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c", "token1decimals": 1000000000000000000},
 
-        {"token0Name": "CAKE", "token0Address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", "token0decimals": 1000000000000000000, 
-         "token1Name": "ETH", "token1Address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8", "token1decimals": 1000000000000000000 }, 
+        {"token0Name": "BUSD", "token0Address": "0xe9e7cea3dedca5984780bafc599bd69add087d56", "token0decimals": 1000000000000000000, 
+         "token1Name": "USDT", "token1Address": "0x55d398326f99059ff775485246999027b3197955", "token1decimals": 1000000000000000000 }, 
 
         {"token0Name": "BUSD", "token0Address": "0xe9e7cea3dedca5984780bafc599bd69add087d56", "token0decimals": 1000000000000000000, 
-         "token1Name": "BTCB", "token1Address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c", "token1decimals": 1000000000000000000}
+         "token1Name": "USDC", "token1Address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d", "token1decimals": 1000000000000000000}, 
+
+         {"token0Name": "BUSD", "token0Address": "0xe9e7cea3dedca5984780bafc599bd69add087d56", "token0decimals": 1000000000000000000, 
+          "token1Name": "TUSD", "token1Address": "0x14016E85a25aeb13065688cAFB43044C2ef86784", "token1decimals": 1000000000000000000}, 
+
+          {"token0Name": "BUSD", "token0Address": "0xe9e7cea3dedca5984780bafc599bd69add087d56", "token0decimals": 1000000000000000000, 
+           "token1Name": "DAI", "token1Address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3", "token1decimals": 1000000000000000000}, 
+
+           {"token0Name": "WBNB", "token0Address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", "token0decimals": 1000000000000000000, 
+            "token1Name": "WETH", "token1Address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8", "token1decimals": 1000000000000000000}, 
+
+            {"token0Name": "SUSHI", "token0Address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4", "token0decimals": 1000000000000000000, 
+             "token1Name": "WETH", "token1Address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8", "token1decimals": 1000000000000000000}
+
+         
 
     ]
 }
